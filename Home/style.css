@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.s1{
+    width:90%;
+    height: 580px;
+    position: relative;
+    overflow: hidden; /* Sobrepõe os elementos e mascara as diferenças de tamanho */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.painelBanners{
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.banner{
+    position: relative;
+    min-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+button{ 
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0);
+    color: rgba(0,0,0,0.6);
+    font-size: 60px;
+    cursor: pointer;
+    border: none;}
+
+.prevBanner{
+    left: 10px;
+}
+
+.nextBanner{
+    right: 10px;
+}
