@@ -1,5 +1,0 @@
-function qualquer(){
-    
-}
-
-function BannerTroca(){}
