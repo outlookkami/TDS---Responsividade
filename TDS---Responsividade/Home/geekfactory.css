@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #854CBF;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+
+header{
+    background-color: #111111;
+    display:flex;
+    justify-content:space-evenly;
+    gap: 150px;
+    width: 100vw;
+}
+
+.logo{
+    margin:0;
+    display:flex;  
+}
+
+.pesquisa{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pesquisa-input{
+    width: 520px;
+    height:40px;
+    padding-left: 30px;
+    background: url('assets/img/search.png') no-repeat left center;
+    background-size: 20px 20px;
+    border: none;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top:10px;
+}
+
+.ícone{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:20px;
+}
+
+.login{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:gold;
+}
+
+.banner{
+    display: flex;
+    margin-top: 40px;
+}
+
+@media (width>=768px) {
+    header{
+        width: 100vw;
+    }
+
+    .banner{
+        margin-top: 40px;
+        width: 100vw;
+        height: 391px;
+        margin: 0, 0, 0, 40;
+    }
+
+    .produtos1{
+        display: flex;
+        flex-wrap: flex;
+        width: 100vw;
+        align-items: center;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .produtos2{
+        display: flex;
+        flex-wrap: flex;
+        width: 100vw;
+        align-items: center;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+.prod{
+    padding: 45px;
+    width:300px;
+    height: 300px;
+}
+
+figcaption{
+    color:white;
+    width:280px; 
+    justify-items: space-evenly;
+    text-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+figcaption:hover{
+    color: yellow;
+    font-size:large;
+}
+
+footer{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    width: 100vw;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;  
+    margin-top:20px;
+}
+
+.separa{
+    display:flex;
+    flex-direction: column;
+    gap:80px;
+}
+
+.whatsapp{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    display:flex;
+    float:right;
+}
+
+h5{
+    display:flex;
+    float:right;
+    flex-direction: column;
+}
+
+.pagamento{
+    display:flex;
+    flex-direction: column;
+}
+
+.dados{
+    display:flex;
+    flex-direction: column;
+}
+
+.dadosPag{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.dadosPag2{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.rodapé{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    gap: 110px;
+    margin-top: 50px;
+}
