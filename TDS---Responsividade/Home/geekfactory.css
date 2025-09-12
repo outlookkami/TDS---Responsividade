@@ -8,20 +8,22 @@ body{
     background-color: #854CBF;
     font-family: "Mulish", sans-serif;
     font-style: normal;
-    margin: 0;
+    line-height: 1.5;
 }
 
 header{
     background-color: #111111;
     display:flex;
-    justify-content:space-evenly;
-    gap: 150px;
-    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.logo{
-    margin:0;
-    display:flex;  
+.logo img {
+    max-width: 180px;
+    height: auto;
 }
 
 .pesquisa{
@@ -40,11 +42,41 @@ header{
     border: none;
 }
 
-.nav-links{
+nav{
+    background-color: #000000;
+}
+
+.nav-links {
     display: flex;
-    flex-direction: column;
-    gap:30px;
-    margin-top:10px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: gold;
+}
+
+ul{
+    display: flex;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 80vh;
 }
 
 .ícone{
@@ -54,12 +86,14 @@ header{
     gap:20px;
 }
 
-.login{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
+figcaption {
+    margin-top: 0.75rem;
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
+figcaption:hover {
+    color: gold;
+}
 a{
     color: white;
     text-decoration: none;
